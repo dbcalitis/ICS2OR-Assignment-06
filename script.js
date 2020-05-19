@@ -24,6 +24,7 @@ function pizzaOrder() {
     tax = 0.13 * subtotal;
     tax = tax.toFixed(2);
     cost = Number(subtotal) + Number(tax);
+    cost = cost.toFixed(2);
     document.getElementById("bill").style.display = "block";
     document.getElementById("tax").textContent = "Tax: $" + tax;
     document.getElementById("subtotal").textContent = "Subtotal: $" + subtotal;
