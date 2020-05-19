@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Pizza Delivery">
+    <meta name="keywords" content="Pizza, Order, Bill">
+    <meta name="author" content="Daria Bernice Calitis">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_pizza.css">
+    <title>Pizza Order</title>
+  </head>
+  <body>
+    <h1>Pizza Order</h1>
+    <img id="pizza" alt="Pizza" src="./images/Pizza.jpg">
+    <h2 id="bill"><u>Bill</u></h2>
+    <p id="tax"></p>
+    <p id="subtotal"></p>
+    <p id="cost"></p>
+    <h2>Menu:</h2>
+    <h3><u>Sizes</u></h3>
+    <p>Large = $6.00 <br>
+    Extra Large = $10.00</p>
+    <input type="radio" id="size1" name="size">Large
+    <input type="radio" id="size2" name="size">Extra Large
+
+    <h3><u>Cost per Toppings</u></h3>
+    <p>1 topping = $1.00 <br>
+    2 toppings = $1.75 <br>
+    3 toppings = $2.50 <br>
+    4 toppings = $3.35</p>
+    <h4>Number of toppings</h4>
+    <select id="toppings">
+      <option value="1">1</option>
+      <option value="1.75">2</option>
+      <option value="2.50">3</option>
+      <option value="3.35">4</option>
+    </select>
+    <button id="enter">Enter</button>
+    <script src="script.js"></script>
+    </body>
+</html>
